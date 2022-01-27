@@ -6,7 +6,13 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
+#descricao {
+    text-align: center;
+}
+
 .description-itens {
     font-family: 'Dongle', sans-serif;
     font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
 }
