@@ -1,18 +1,3 @@
 body {
     background-color: #9AD1D4;
 }
-
-#nome {
-    font-family: 'Press Start 2P', cursive;
-}
-
-#descricao {
-    text-align: center;
-}
-
-.description-itens {
-    font-family: 'Dongle', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
-}
