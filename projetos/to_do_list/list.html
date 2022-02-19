@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/projetos/to_do_list/list.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
+    <title>To Do List</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Minha Lista de Tarefas</h1>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    </header>
+    <main id="conteudo-principal">
+        <section id="inicio">
+            <input type="text" id="texto-tarefa" placeholder="Digite o nome da tarefa">
+            <button id="criar-tarefa" class="positivo"><strong>Adicionar</strong></button>
+        </section>
+        <section id="lista">
+            <ol id="lista-tarefas">
+
+            </ol>
+        </section>
+        <section id="botoes">
+            <button id="apaga-tudo" class="bloco-botao negativo"><strong>Limpar Lista</strong></button>
+            <button id="mover-cima" class="bloco-botao neutro"><strong>Mover Item para cima</strong></button>
+            <button id="mover-baixo" class="bloco-botao neutro"><strong>Mover Item para baixo</strong></button>
+            <button id="remover-finalizados" class="bloco-botao neutro-negativo"><strong>Limpar finalizados</strong></button>
+            <button id="remover-selecionado" class="bloco-botao neutro-negativo"><strong>Limpar selecionado</strong></button>
+            <button id="salvar-tarefas" class="bloco-botao positivo"><strong>Salvar Lista</strong></button>
+        </section>
+    </main>
+
+    <script src="/projetos/to_do_list/list.js"></script>
+</body>
+</html>

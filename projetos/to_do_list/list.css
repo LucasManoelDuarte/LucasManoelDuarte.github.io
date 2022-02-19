@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto serif, sans-serif;
+  }
+  
+  body {
+    background-color: crimson;
+  }
+  
+  #cabecalho , #conteudo-principal {
+    background-color: ivory;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgba(0 , 0 , 0 , 0.4);
+  }
+  
+  #cabecalho h1 {
+    margin-bottom: 15px;
+  }
+  
+  #inicio {
+    width: 100%;
+  }
+  
+  #texto-tarefa {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .positivo {
+    background-color: rgb(47 , 193 , 140);
+    color: ivory;
+    transition-duration: 0.4s;
+  }
+  
+  .positivo:hover {
+    background-color: ivory;
+    color: black;
+    border: 1px solid rgb(47 , 193 , 140);
+  }
+  
+  .negativo {
+    background-color: crimson;
+    color: ivory;
+    transition-duration: 0.4s;
+  }
+  
+  .negativo:hover {
+    background-color: ivory;
+    color: black;
+    border: 1px solid crimson;
+  }
+  
+  .neutro {
+    background-color: rgb(255 , 183 , 0);
+    color: ivory;
+    transition-duration: 0.4s;
+  }
+  
+  .neutro:hover {
+    background-color: ivory;
+    color: black;
+    border: 1px solid rgb(255 , 183 , 0);
+  }
+  
+  .neutro-negativo {
+    background-color: rgb(111 , 29 , 27);
+    color: ivory;
+    transition-duration: 0.4s;
+  }
+  
+  .neutro-negativo:hover {
+    background-color: ivory;
+    color: black;
+    border: 1px solid rgb(111 , 29 , 27);
+  }
+  
+  #lista {
+    width: 40%;
+    display: inline-block;
+  }
+  
+  #lista-tarefas {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  li {
+    margin: 7px;
+    padding: 5px;
+  }
+  
+  #botoes {
+    width: 40%;
+    display: inline-block;
+    margin-left: 200px;
+    vertical-align: top;
+  }
+  
+  .bloco-botao {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .selected {
+    background-color: gray;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
