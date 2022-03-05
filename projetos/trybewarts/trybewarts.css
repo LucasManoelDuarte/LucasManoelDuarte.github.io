@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-color: rgb(50, 167, 145);
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header img {
+    margin: 10px;
+  }
+  
+  .trybewarts-header-logo {
+    height: 60px;
+  }
+  
+  #trybewarts-header-title {
+    color: white;
+  }
+  
+  .trybewarts-login {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 35%;
+  }
+  
+  #email , #password {
+    margin: 0 10px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 30%;
+    border: none;
+  }
+  
+  #buttonHeader {
+    margin: 0 10px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(86, 3, 173);
+    color: white;
+  }
+  
+  #main-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(223, 221, 221);
+  }
+  
+  #evaluation-form {
+    width: 675px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #evaluation-form h2 {
+    align-self: center;
+    margin: 20px;
+  }
+  
+  .name {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .name #input-name , #input-lastname {
+    margin: 0 10px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 30%;
+    border: none;
+  }
+  
+  .email-house {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .email-house label {
+    align-self: center;
+  }
+  
+  .email-house #input-email , #house {
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 30%;
+    border: none;
+  }
+  
+  #house {
+    background-color: white;
+  }
+  
+  .family-subject {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .family {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  
+  .family #label-family {
+    margin: 10px 0;
+  }
+  
+  .family input {
+    margin: 10px 0;
+  }
+  
+  .subject-options {
+    display: flex;
+    flex-flow: row wrap;
+    width: 40%;
+  }
+  
+  .subject-options #label-content {
+    margin: 10px;
+  }
+  
+  .subject-options label {
+    margin: 0 15px;
+  }
+  
+  .rate {
+    margin: 15px 0;
+  }
+  
+  .rate input {
+    margin: 0 5px;
+  }
+  
+  .textarea label {
+    margin-bottom: 5px;
+  }
+  
+  #trybewarts-forms-logo {
+    height: 500px;
+  }
+  
+  .textarea {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  #counter {
+    align-self: flex-end;
+  }
+  
+  .agreement label {
+    margin: 0 5px;
+  }
+  
+  #submit-btn:disabled {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    background-color: rgba(239, 239, 239, 0.3);
+    color: rgba(16, 16, 16, 0.3);
+    font-size: 18px;
+  }
+  
+  #submit-btn:enabled {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(86, 3, 173);
+    color: white;
+    font-size: 18px;
+  }
+  
+  #footer {
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #footer p {
+    font-size: 20px;
+    color: white;
+  }
+  
+  #result {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 50px;
+    background-color: rgb(44, 143, 125);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  #result p {
+    padding: 10px 20px;
+  }
+  
+  @media screen and ( max-width : 900px ) {
+  
+    #trybewarts-forms-logo , .trybewarts-header-logo {
+      display: none;
+    }
+  
+    .trybewarts-login {
+      display: none;
+    }
+  
+    .header {
+      justify-content: center;
+    }
+  
+    .family-subject {
+      flex-direction: column;
+    }
+  
+    .family , .subject-options {
+      width: 100%;
+    }
+  
+    #result {
+      display: none;
+    }
+  }
+  

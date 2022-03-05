@@ -8,59 +8,65 @@
     <title>Portfólio Web - Lucas Duarte</title>
 </head>
 <body>
-    <div id="principal">
-        <div id="content">
-            <div id="menu">
-                <div id="main-title">
-                    <h1>Portfólio Web - Lucas Duarte</h1>
-                </div>
+    <main id="principal">
+        <section id="menu">
+            <section id="main-title">
+                <h1>Portfólio Web - Lucas Duarte</h1>
+            </section>
         
-                <div class="options">
-                    <a href="#name" class="options anchors">Sobre mim</a>
-                    <a href="#abilities" class="options anchors">Habilidades</a>
-                    <a href="#projects" class="options anchors">Projetos</a>
-                </div>
-            </div>
+            <nav class="options">
+                <a href="#" class="options anchors">Sobre mim</a>
+                <a href="#" class="options anchors">Habilidades</a>
+                <a href="#" class="options anchors">Projetos</a>
+            </nav>
+        </section>
 
-            <div class="response">
-                <div class="response aboutMe">
-                    <div id="name">
-                        <h1>Lucas Manoel Duarte</h1>
-                    </div>
+        <section class="response">
+            <section class="response aboutMe">
+                <section id="name">
+                    <h1>Lucas Manoel Duarte</h1>
+                </section>
                     
-                    <div id="image">
-                        <img src="/images/eu-temporario.jpeg" alt="Foto minha - Lucas Duarte">
-                    </div>
-                    
-                    <div id="description">
+                <section id="image-description">
+                    <section id="image">
+                        <img src="/images/eu.jpeg" alt="Foto minha - Lucas Duarte">
+                    </section>
+                        
+                    <section id="description">
                         <p>
-                            Brasileiro, 22 anos, morando em Guaíba / RS. Estudante de Desenvolvimento de Software Web na Trybe. Gosto de assistir filmes, animes e jogar Video Game nas horas vagas. Jogando atualmente Red Dead Redemptiom II.
+                            Brasileiro, 22 anos, morando em Guaíba / RS. Estudante de Desenvolvimento de Software Web na Trybe. Gosto de desafios e estou sempre disposto a aprender.
                         </p>
-                    </div>
-                </div>
+                    </section>
+                </section>
+            </section>
 
-                <div class="response abilities">
-                    <h3 id="abilities">Habilidades</h3>
+            <section class="response abilities">
+                <h3 id="abilities">Habilidades</h3>
+                <ul>
+                    <li>Responsável</li>
+                    <li>Organizado</li>
+                    <li>Trabalhar em equipe</li>
+                    <li>Git & GitHub</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+
+            <section class="response projects">
+                <h3 id="projects">Projetos</h3>
+                <nav>
                     <ul>
-                        <li>Responsável</li>
-                        <li>Organizado</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li><a href="/projetos/lessons_learned/lessons.html" target="_blank">Lessons Learned</a></li>
+                        <li><a href="/projetos/pixel_art/pixel.html" target="_blank">Pixels Art</a></li>
+                        <li><a href="/projetos/to_do_list/list.html" target="_blank">To Do List</a></li>
+                        <li><a href="/projetos/trybewarts/trybewarts.html" target="_blank">Trybewarts</a></li>
                     </ul>
-                </div>
+                </nav>
+            </section>
+        </section>
+    </main>
 
-                <div class="response projects">
-                    <h3 id="projects">Projetos</h3>
-                    <nav>
-                        <ul>
-                            <li><a href="/projetos/lessons_learned/lessons.html" target="_blank">Lessons Learned</a></li>
-                            <li><a href="/projetos/pixel_art/pixel.html" target="_blank">Pixels Art</a></li>
-                            <li><a href="/projetos/to_do_list/list.html" target="_blank">To Do List</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
+    <script src="/script.js"></script>
 </body>
 </html>
